@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="icon" href="./multimedia/favicon_io/favicon.ico"type="image/x-icon">
+    <title>Recetas de cocina</title>
+</head>
+
+
+<body>
+<!--A partir de aca el header-->
+<!--VER DE CAMBIAR EL COLOR DEL BOTON BUSCAR-->
+
+<header>
+    <div class="logo-y-menu-conteiner">
+    <img src="./multimedia/Logo_recetario.png" alt="Logo_recetario"> 
+    <nav class="navbar navbar-expand-lg .bg-transparent">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/recetas_menu.html">Recetas escritas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/recetas_video.html">Recetas en video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/APPs.html">Nuestras APPs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+</header>
+
+<!--A partir de aca el menu navegable-->
+<main>
+
+   <h1>Bienvenidos a Recetario Online</h1> 
+
+<!--A partir de aca carrousel de imagenes-->
+
+   <div id="carouselExampleFade" class="carousel slide carousel-fade style="margin-bottom: 40px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./multimedia/1622.jpg.webp" class="d-block w-100" alt="Carnitas mexicanas">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/1629.jpg.webp" class="d-block w-100" alt="torta de limon">
+      </div>
+      <div class="carousel-item">
+        <img src="./multimedia/1650.jpg.webp" class="d-block w-100" alt="Pollo crocante">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--A partir de aca seccion con imagenes-->
+
+   <section>
+    <h2>¿Qué queres cocinar?</h2> 
+    <div class="contenedor-recetas" style="margin-bottom: 60px;">
+        <div class="receta">
+            <img src="./multimedia/38725.jpg.webp" alt="hamburguesas sabrosas" style="margin-right: 10px;">
+            <p> <a href="pages/recetas_menu.html">Recetas Fáciles</a></p>
+        </div>
+        <div class="receta">
+            <img src="./multimedia/38726.jpg.webp" alt="lomo con guarnición" style="margin-right: 10px;">
+            <p>Recetas elaboradas</p>
+        </div>
+        <div class="receta">
+            <img src="./multimedia/38727.jpg.webp" alt="ribs de cerdo con BBQ" style="margin-right: 10px;">
+            <p>Recetas al horno</p>
+        </div>
+        <div class="receta">
+            <img src="./multimedia/38738.jpg.webp" alt="salteado de pollo" style="margin-right: 10px;">
+            <p>Recetas de Salteados</p>
+        </div>
+    </div>
+    </section> 
+
+
+    <section>
+    <h2>Nuestros recetarios en libros</h2><br>
+    <div class="recetarios-libros">
+        <img src="./multimedia/113.jpg.webp" alt="sanguches variados" style="margin-right: 10px;">
+        <img src="./multimedia/116.jpg.webp" alt="cazuelas" style="margin-right: 10px;">
+        <img src="./multimedia/120.jpg.webp" alt="sopas" style="margin-right: 10px;">
+        <img src="./multimedia/124.jpg.webp" alt="centradas" style="margin-right: 10px;">
+        <img src="./multimedia/126.jpg.webp" alt="placeres dulces" style="margin-right: 10px;">
+    </div>
+    </section>
+
+</main>
+
+<!--A partir de aca el footer-->
+
+<footer>
+  <div class="imagen-footer">
+      <a href="http://www.facebook.com" target="_blank">
+          <img src="./multimedia/Facebook.png" alt="Logo Facebook" class="imagen-footer">
+      </a>
+      <a href="http://www.instagram.com" target="_blank">
+          <img src="./multimedia/descargaIG.png" alt="Logo Instagram" class="imagen-footer">
+      </a>
+  </div>
+  <ul class="links_de_pie">
+      <li><a href="./pages/contacto.html">Contacto</a></li>
+  </ul>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
