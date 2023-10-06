@@ -18,6 +18,6 @@ Este proyecto es una página web que te proporciona una colección de deliciosas
 
 ## Autor
 
-- [Tu Nombre](https://github.com/MaraBalari) - Desarrollador principal
+- [Mara Balari](https://github.com/MaraBalari) - Desarrollador principal
 
 ¡Gracias por visitar el Recetario Online y disfruta de las deliciosas recetas!
