@@ -1,4 +1,5 @@
 
+/* Estilos para todo el sitio */
 * {
     margin: 20;
     padding: 0;
@@ -7,7 +8,7 @@
     list-style: none;
 }
 
-/* Estilos generales */
+/* Estilos generales y header */
 
 body {
     background-color: rgb(249, 221, 179);
