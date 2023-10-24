@@ -1,0 +1,28 @@
+.receta-detallada {
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+    & img {
+        max-width: 50%;
+    }
+}
+
+.iconos{
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    & img{
+        max-width: 30px; 
+        align-items: center;
+    }
+}
+
+.contenido-ingredientes-preparacion {
+    display: flex;
+    justify-content: center;
+    & .ingredientes-preparacion{
+        display: flex;
+        display: inline-block 
+    }
+}

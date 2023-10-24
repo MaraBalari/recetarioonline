@@ -8,14 +8,14 @@ footer {
         align-items: center; 
         justify-content: center; 
         text-align: center;
-    }
-}
-
-.links_de_pie {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-    & links_de_pie li {
-        margin: 5px 0;
+        &.links_de_pie {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            & li{
+                margin: 5px 0
+            }
+            
+        }
     }
 }

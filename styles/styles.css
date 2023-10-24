@@ -145,8 +145,8 @@ iframe {
 }
 
 .informacion-contacto {
-    flex: 1; /* Hace que esta columna ocupe el espacio restante */
-    padding: 20px; /* Agrega espacio entre el iframe y la información */
+    flex: 1; 
+    padding: 20px; 
 }
 
 
@@ -181,6 +181,8 @@ footer {
     background-color: #FDA
 }
 
+
+/* Estilos Media queris */
 
 @media (max-width: 480px) {
     .recetarios-libros img {
