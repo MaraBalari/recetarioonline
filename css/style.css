@@ -1,7 +1,8 @@
 /* Todos los estilos se encuentran separados en sus respectivos import */
 body {
   background-color: rgb(249, 221, 179);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif img;
+  font-family-margin-left: 20px;
 }
 body h1, body h2, body h3, body h4, body p, body .btn {
   color: black;
@@ -9,9 +10,6 @@ body h1, body h2, body h3, body h4, body p, body .btn {
   margin-top: 30px;
   margin-left: 20px;
   font-size: medium;
-}
-body img {
-  margin-left: 20px;
 }
 body iframe {
   margin-left: 20px;
