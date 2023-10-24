@@ -1,37 +1,15 @@
 
-/* Estilos generales del sitio */
 
-body {
-    background-color: rgb(249, 221, 179);
-    & h1, h2, h3, h4, p, .btn {
-        color: black;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        margin-left: 20px;
-        font-size: medium;
-    }
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    img {
-        margin-left: 20px;
-    }
-    iframe {
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-/* Estilo header */
-
-.logo-y-menu-conteiner{
-    display: flex;
-    flex-direction: row; 
-    align-items: center; 
-}
+/* Todos los estilos se encuentran separados en sus respectivos import */
 
 
 
 
 @import "variables";
+
+@import "body";
+
+@import "header";
 
 @import "footer";
 
