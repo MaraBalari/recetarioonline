@@ -1,0 +1,13 @@
+@mixin botones ($width, $height, $color_principal, $fuente_principal, $valor-text-align, $border-radius){
+    width: $width;
+    height: $height;
+    background-color: $color_principal;
+    font-family: $fuente_principal;
+    text-align: $valor-text-align;
+    border-radius: $border-radius;
+    border: 1px solid $color_principal;   
+}
+
+.btn {
+    @include botones(150px,60px, rgb(249, 221, 179), "Segoe UI",center, -radius)
+}

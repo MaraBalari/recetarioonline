@@ -1,4 +1,14 @@
 /* Todos los estilos se encuentran separados en sus respectivos import */
+.btn {
+  width: 150px;
+  height: 60px;
+  background-color: rgb(249, 221, 179);
+  font-family: "Segoe UI";
+  text-align: center;
+  border-radius: -radius;
+  border: 1px solid rgb(249, 221, 179);
+}
+
 body {
   background-color: rgb(249, 221, 179);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif img;
