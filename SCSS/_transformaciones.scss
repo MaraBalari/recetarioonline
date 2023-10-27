@@ -1,0 +1,11 @@
+.logo-y-menu-conteiner {
+    display: flex;
+    align-items: center;
+    img {
+      transition: transform 0.3s ease;
+      &:hover {
+        transform: rotate(360deg); 
+      }
+    }
+  }
+  

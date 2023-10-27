@@ -3,3 +3,13 @@
     flex-direction: row; 
     align-items: center; 
 }
+
+.btn {
+    color: black;
+    background-color: rgb(254, 179, 67);
+    &.btn-outline-success {
+      &:hover {
+        background-color: rgb(222, 163, 0);
+      }
+    }
+  }
