@@ -1,0 +1,28 @@
+footer {
+    background-color: $color_principal;
+    text-align: center; 
+    padding: 20px; 
+  
+    .imagen-footer {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      text-align: center;
+  
+      .logo {
+        margin: 0 10px; 
+      }
+    }
+  
+    .links_de_pie {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+      li {
+        margin: 5px 0;
+      }
+    }
+  }
+  
+  
