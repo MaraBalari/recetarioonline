@@ -103,6 +103,10 @@ footer .links_de_pie li {
   display: inline-block;
 }
 
+.contenido-ingredientes-preparacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .text-block-container {
   display: flex;
   flex-direction: row;
@@ -197,6 +201,12 @@ footer .links_de_pie li {
     max-height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .contenido-ingredientes-preparacion {
+    grid-template-columns: 1fr;
+    margin-right: 10px;
   }
 }
 

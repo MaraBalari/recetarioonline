@@ -26,3 +26,15 @@
         display: inline-block 
     }
 }
+
+.contenido-ingredientes-preparacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    & .ingredientes-preparacion {
+      & h3 {
+      }
+      ol {
+      }
+    }
+  }
+
