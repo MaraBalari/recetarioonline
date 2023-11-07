@@ -1,19 +1,27 @@
 footer {
-    background-color: $color_principal;
-    text-align: center; 
-    padding: 20px; 
-  
-    .imagen-footer {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center; 
-      align-items: center; 
-      text-align: center;
-  
-      .logo {
-        margin: 0 10px; 
-      }
+  background-color: $color_principal;
+  text-align: center; 
+  padding: 20px; 
+
+  .imagen-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img {
+      width: 30px;
+      height: 30px;
     }
+
+    .logo {
+      margin: 0 10px; 
+    }
+  }
+}
+
+
   
     .links_de_pie {
       list-style: none;
@@ -23,6 +31,6 @@ footer {
         margin: 5px 0;
       }
     }
-  }
+
   
   

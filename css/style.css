@@ -60,15 +60,20 @@ footer .imagen-footer {
   align-items: center;
   text-align: center;
 }
+footer .imagen-footer img {
+  width: 30px;
+  height: 30px;
+}
 footer .imagen-footer .logo {
   margin: 0 10px;
 }
-footer .links_de_pie {
+
+.links_de_pie {
   list-style: none;
   padding: 0;
   margin-top: 20px;
 }
-footer .links_de_pie li {
+.links_de_pie li {
   margin: 5px 0;
 }
 
@@ -161,7 +166,7 @@ footer .links_de_pie li {
 
 @media (max-width: 480px) {
   .recetarios-libros img {
-    max-width: 150px;
+    max-width: 130px;
     height: auto;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -176,8 +181,7 @@ footer .links_de_pie li {
 }
 @media (max-width: 480px) {
   .logo-y-menu-conteiner img {
-    max-width: 200px;
-    height: auto;
+    max-width: 190px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -215,6 +219,15 @@ footer .links_de_pie li {
   .contenido-ingredientes-preparacion {
     grid-template-columns: 1fr;
     margin-right: 10px;
+  }
+}
+.text-block-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 480px) {
+  .text-block-container .text-block {
+    margin-top: 20px;
   }
 }
 
