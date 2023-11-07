@@ -1,7 +1,7 @@
 /* Todos los estilos se encuentran separados en sus respectivos import */
 .btn {
-  width: 150px;
-  height: 60px;
+  width: 90px;
+  height: 40px;
   background-color: rgb(249, 221, 179);
   font-family: "Segoe UI";
   text-align: center;
@@ -38,6 +38,14 @@ body iframe {
 }
 .btn.btn-outline-success:hover {
   background-color: rgb(222, 163, 0);
+}
+
+form.d-flex {
+  display: flex;
+  align-items: center;
+}
+form.d-flex .form-control {
+  flex: 1;
 }
 
 footer {
