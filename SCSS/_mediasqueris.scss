@@ -67,6 +67,17 @@
   }
 
   @media (max-width: 480px) {
+      iframe {
+        max-width: 300px;
+        max-height: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+
+
+  @media (max-width: 480px) {
     .contenido-ingredientes-preparacion {
       grid-template-columns: 1fr; 
       margin-right: 10px
