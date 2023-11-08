@@ -73,17 +73,12 @@
     }
   }
 
-  .text-block-container {
-    display: flex;
-    flex-direction: column; 
-    @media (max-width: 480px) {
-      .text-block {
-        margin-top: 20px; 
-      }
+  @media (max-width: 480px) {
+    .card {
+      display: block; // Hace que las tarjetas se muestren una debajo de la otra en pantallas más estrechas
+      width: 100%; // Ocupa todo el ancho disponible
     }
   }
-  
-  
 
 
 

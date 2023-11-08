@@ -120,18 +120,20 @@ footer .imagen-footer .logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.text-block-container {
+.card {
+  display: inline-block;
+  width: calc(50% - 15px);
+  margin: 5px;
+}
+
+.card.mb-3 {
+  background-color: rgb(249, 221, 179);
+}
+
+.col-md-4 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.text-block-container .text-block {
-  flex-basis: calc(50% - 10px);
-  margin-right: 10px;
-}
-.text-block-container .text-block img {
-  max-width: 100%;
-  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .receta {
@@ -221,13 +223,10 @@ footer .imagen-footer .logo {
     margin-right: 10px;
   }
 }
-.text-block-container {
-  display: flex;
-  flex-direction: column;
-}
 @media (max-width: 480px) {
-  .text-block-container .text-block {
-    margin-top: 20px;
+  .card {
+    display: block;
+    width: 100%;
   }
 }
 

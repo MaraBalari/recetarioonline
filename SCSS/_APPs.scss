@@ -1,13 +1,18 @@
-.text-block-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    & .text-block{
-        flex-basis: calc(50% - 10px); 
-        margin-right: 10px;
-        & img {
-           max-width: 100%;
-            height: auto; 
-        }
-    }
+
+.card {
+    display: inline-block; // Hace que las tarjetas se muestren en línea
+    width: calc(50% - 15px); // Divide el espacio en dos columnas y establece un margen entre las tarjetas
+    margin: 5px; // Añade un espacio entre las tarjetas
+  }
+
+  
+.card.mb-3 {
+    background-color: $color_principal;
 }
+
+.col-md-4 {
+    display: flex; // Establece la columna de la imagen como un contenedor flex
+    justify-content: center; // Centra horizontalmente el contenido dentro de la columna
+    align-items: center; // Centra verticalmente el contenido dentro de la columna
+  }
+  
