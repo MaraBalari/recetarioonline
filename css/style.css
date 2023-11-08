@@ -183,7 +183,7 @@ footer .imagen-footer .logo {
 }
 @media (max-width: 480px) {
   .logo-y-menu-conteiner img {
-    max-width: 190px;
+    max-width: 110px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -234,7 +234,7 @@ footer .imagen-footer .logo {
 @media (max-width: 480px) {
   .card {
     display: block;
-    width: 100%;
+    width: 95%;
   }
 }
 

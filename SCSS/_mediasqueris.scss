@@ -22,7 +22,7 @@
   @media (max-width: 480px) {
     .logo-y-menu-conteiner {
       img {
-        max-width: 190px;
+        max-width: 110px;
         margin-top: 10px;
         margin-bottom: 10px;
       }
@@ -76,7 +76,6 @@
     }
 
 
-
   @media (max-width: 480px) {
     .contenido-ingredientes-preparacion {
       grid-template-columns: 1fr; 
@@ -86,14 +85,8 @@
 
   @media (max-width: 480px) {
     .card {
-      display: block; // Hace que las tarjetas se muestren una debajo de la otra en pantallas más estrechas
-      width: 100%; // Ocupa todo el ancho disponible
+      display: block; 
+      width: 95%; 
     }
   }
 
-
-
-
-
-
-  
