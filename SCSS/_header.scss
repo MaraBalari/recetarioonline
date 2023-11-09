@@ -13,3 +13,13 @@
       }
     }
   }
+
+  form.d-flex {
+    display: flex;
+    align-items: center;   
+    .form-control {
+      flex: 1; 
+    }
+  }
+  
+  

@@ -1,0 +1,10 @@
+.receta_video {
+    display: flex; 
+    gap: 20px;     
+    & iframe {
+        width: 100%; 
+        height: auto;
+    }
+
+  }
+

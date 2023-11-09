@@ -1,7 +1,7 @@
 /* Todos los estilos se encuentran separados en sus respectivos import */
 .btn {
-  width: 150px;
-  height: 60px;
+  width: 90px;
+  height: 40px;
   background-color: rgb(249, 221, 179);
   font-family: "Segoe UI";
   text-align: center;
@@ -40,6 +40,14 @@ body iframe {
   background-color: rgb(222, 163, 0);
 }
 
+form.d-flex {
+  display: flex;
+  align-items: center;
+}
+form.d-flex .form-control {
+  flex: 1;
+}
+
 footer {
   background-color: rgb(249, 221, 179);
   text-align: center;
@@ -52,15 +60,20 @@ footer .imagen-footer {
   align-items: center;
   text-align: center;
 }
+footer .imagen-footer img {
+  width: 30px;
+  height: 30px;
+}
 footer .imagen-footer .logo {
   margin: 0 10px;
 }
-footer .links_de_pie {
+
+.links_de_pie {
   list-style: none;
   padding: 0;
   margin-top: 20px;
 }
-footer .links_de_pie li {
+.links_de_pie li {
   margin: 5px 0;
 }
 
@@ -107,18 +120,16 @@ footer .links_de_pie li {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.text-block-container {
+.card {
+  background-color: rgb(249, 221, 179);
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
 }
-.text-block-container .text-block {
-  flex-basis: calc(50% - 10px);
-  margin-right: 10px;
-}
-.text-block-container .text-block img {
-  max-width: 100%;
-  height: auto;
+.card img {
+  max-width: 250px;
+  margin: 30px;
 }
 
 .receta {
@@ -140,6 +151,28 @@ footer .links_de_pie li {
   justify-content: space-between;
 }
 
+.receta_video {
+  display: flex;
+  gap: 20px;
+}
+.receta_video iframe {
+  width: 100%;
+  height: auto;
+}
+
+.card-APP {
+  display: flex;
+  gap: 20px;
+  grid-template-columns: minmax(300px, 1fr);
+  background-color: rgb(249, 221, 179);
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo-y-menu-conteiner {
   display: flex;
   align-items: center;
@@ -153,7 +186,7 @@ footer .links_de_pie li {
 
 @media (max-width: 480px) {
   .recetarios-libros img {
-    max-width: 150px;
+    max-width: 130px;
     height: auto;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -168,8 +201,7 @@ footer .links_de_pie li {
 }
 @media (max-width: 480px) {
   .logo-y-menu-conteiner img {
-    max-width: 200px;
-    height: auto;
+    max-width: 110px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -188,15 +220,15 @@ footer .links_de_pie li {
   }
 }
 @media (max-width: 480px) {
-  .video-receta {
-    max-width: 320px;
-    height: auto;
+  .contenedor-contacto iframe {
+    max-width: 300px;
+    max-height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 }
 @media (max-width: 480px) {
-  .contenedor-contacto iframe {
+  iframe {
     max-width: 300px;
     max-height: 200px;
     margin-top: 10px;
@@ -207,6 +239,26 @@ footer .links_de_pie li {
   .contenido-ingredientes-preparacion {
     grid-template-columns: 1fr;
     margin-right: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    display: block;
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  .card-APP {
+    display: block;
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .receta_video {
+    display: block;
+    width: 95%;
+    grid-template-columns: 1fr;
   }
 }
 

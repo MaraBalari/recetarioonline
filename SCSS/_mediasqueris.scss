@@ -1,7 +1,9 @@
+
+
 @media (max-width: 480px) {
     .recetarios-libros {
       img {
-        max-width: 150px;
+        max-width: 130px;
         height: auto;
         margin-right: 10px;
         margin-bottom: 10px;
@@ -20,8 +22,7 @@
   @media (max-width: 480px) {
     .logo-y-menu-conteiner {
       img {
-        max-width: 200px;
-        height: auto;
+        max-width: 110px;
         margin-top: 10px;
         margin-bottom: 10px;
       }
@@ -44,15 +45,7 @@
       }
     }
   }
-  
-  @media (max-width: 480px) {
-    .video-receta {
-      max-width: 320px;
-      height: auto;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  }
+
   
   @media (max-width: 480px) {
     .contenedor-contacto {
@@ -66,9 +59,43 @@
   }
 
   @media (max-width: 480px) {
+      iframe {
+        max-width: 300px;
+        max-height: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+
+  @media (max-width: 480px) {
     .contenido-ingredientes-preparacion {
       grid-template-columns: 1fr; 
       margin-right: 10px
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      display: block; 
+      width: 95%; 
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-APP {
+      display: block; 
+      width: 95%; 
+      grid-template-columns: 1fr; // Cambia a una sola columna en pantallas pequeñas
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .receta_video {
+      display: block; 
+      width: 95%; 
+      grid-template-columns: 1fr; // Cambia a una sola columna en pantallas pequeñas
     }
   }
   

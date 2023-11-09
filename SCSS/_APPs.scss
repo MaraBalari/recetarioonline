@@ -1,13 +1,17 @@
-.text-block-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    & .text-block{
-        flex-basis: calc(50% - 10px); 
-        margin-right: 10px;
-        & img {
-           max-width: 100%;
-            height: auto; 
-        }
-    }
-}
+
+.card-APP {
+    display: flex; 
+    gap: 20px; 
+    grid-template-columns: minmax(300px, 1fr);
+    background-color: $color_principal;
+  }
+
+  
+.col-md-4 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+
+  
