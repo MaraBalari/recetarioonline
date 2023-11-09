@@ -120,19 +120,6 @@ footer .imagen-footer .logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.card-APP {
-  display: flex;
-  gap: 20px;
-  grid-template-columns: minmax(300px, 1fr);
-  background-color: rgb(249, 221, 179);
-}
-
-.col-md-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .card {
   background-color: rgb(249, 221, 179);
   display: flex;
@@ -167,10 +154,23 @@ footer .imagen-footer .logo {
 .receta_video {
   display: flex;
   gap: 20px;
-  grid-template-columns: minmax(300px, 1fr);
 }
 .receta_video iframe {
   width: 100%;
+  height: auto;
+}
+
+.card-APP {
+  display: flex;
+  gap: 20px;
+  grid-template-columns: minmax(300px, 1fr);
+  background-color: rgb(249, 221, 179);
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-y-menu-conteiner {
@@ -248,14 +248,14 @@ footer .imagen-footer .logo {
   }
 }
 @media (max-width: 480px) {
-  .receta_video {
+  .card-APP {
     display: block;
     width: 95%;
     grid-template-columns: 1fr;
   }
 }
 @media (max-width: 480px) {
-  .card-APP {
+  .receta_video {
     display: block;
     width: 95%;
     grid-template-columns: 1fr;
