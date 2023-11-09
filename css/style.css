@@ -167,6 +167,15 @@ footer .imagen-footer .logo {
   justify-content: space-between;
 }
 
+.receta_video {
+  display: flex;
+  gap: 20px;
+  grid-template-columns: minmax(300px, 1fr);
+}
+.receta_video iframe {
+  width: 100%;
+}
+
 .logo-y-menu-conteiner {
   display: flex;
   align-items: center;
@@ -214,14 +223,6 @@ footer .imagen-footer .logo {
   }
 }
 @media (max-width: 480px) {
-  .video-receta {
-    max-width: 320px;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 480px) {
   .contenedor-contacto iframe {
     max-width: 300px;
     max-height: 200px;
@@ -247,6 +248,13 @@ footer .imagen-footer .logo {
   .card {
     display: block;
     width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  .receta_video {
+    display: block;
+    width: 95%;
+    grid-template-columns: 1fr;
   }
 }
 

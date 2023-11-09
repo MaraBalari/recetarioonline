@@ -45,15 +45,7 @@
       }
     }
   }
-  
-  @media (max-width: 480px) {
-    .video-receta {
-      max-width: 320px;
-      height: auto;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  }
+
   
   @media (max-width: 480px) {
     .contenedor-contacto {
@@ -89,3 +81,12 @@
       width: 95%; 
     }
   }
+
+  @media (max-width: 480px) {
+    .receta_video {
+      display: block; 
+      width: 95%; 
+      grid-template-columns: 1fr; // Cambia a una sola columna en pantallas pequeñas
+    }
+    }
+  
