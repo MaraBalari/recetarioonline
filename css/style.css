@@ -120,13 +120,10 @@ footer .imagen-footer .logo {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.card {
-  display: inline-block;
-  width: calc(50% - 15px);
-  margin: 5px;
-}
-
-.card.mb-3 {
+.card-APP {
+  display: flex;
+  gap: 20px;
+  grid-template-columns: minmax(300px, 1fr);
   background-color: rgb(249, 221, 179);
 }
 
@@ -252,6 +249,13 @@ footer .imagen-footer .logo {
 }
 @media (max-width: 480px) {
   .receta_video {
+    display: block;
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .card-APP {
     display: block;
     width: 95%;
     grid-template-columns: 1fr;

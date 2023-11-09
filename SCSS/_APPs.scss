@@ -1,18 +1,17 @@
 
-.card {
-    display: inline-block; 
-    width: calc(50% - 15px);
-    margin: 5px; 
+.card-APP {
+    display: flex; 
+    gap: 20px; 
+    grid-template-columns: minmax(300px, 1fr);
+    background-color: $color_principal;
   }
 
   
-.card.mb-3 {
-    background-color: $color_principal;
-}
-
 .col-md-4 {
     display: flex; 
     justify-content: center; 
     align-items: center; 
   }
+
+
   

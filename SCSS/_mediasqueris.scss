@@ -88,5 +88,13 @@
       width: 95%; 
       grid-template-columns: 1fr; // Cambia a una sola columna en pantallas pequeñas
     }
-    }
+  }
   
+
+  @media (max-width: 480px) {
+    .card-APP {
+      display: block; 
+      width: 95%; 
+      grid-template-columns: 1fr; // Cambia a una sola columna en pantallas pequeñas
+    }
+  }
